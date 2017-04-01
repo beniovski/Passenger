@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Passenger.Api",
-    "\\Passenger.Core",
+    "\\Passenger.Api\\Controllers",
+    "\\Passenger.Api\\wwwroot",
+    "\\Passenger.Core\\Repositories",
     "\\Passenger.Infrastructure",
-    "\\Passenger.Tests",
-    "\\Passenger.Tests.EndToEnd"
+    "\\Passenger.Infrastructure\\DTO",
+    "\\Passenger.Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\Passenger.Api\\Dockerfile",
+  "SelectedNode": "\\Passenger.Api\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

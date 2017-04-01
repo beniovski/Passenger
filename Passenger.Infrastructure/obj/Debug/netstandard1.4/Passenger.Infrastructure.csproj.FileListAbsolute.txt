@@ -1,0 +1,6 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.4\Passenger.Infrastructure.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.4\Passenger.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.4\Passenger.Infrastructure.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.4\Passenger.Infrastructure.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.4\Passenger.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.4\Passenger.Infrastructure.pdb
