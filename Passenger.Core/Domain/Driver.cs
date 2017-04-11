@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 
 
 namespace Passenger.Core.Domain
@@ -13,8 +14,7 @@ namespace Passenger.Core.Domain
 
         public IEnumerable<Route> Routes { get; protected set;}
 
-        public IEnumerable<DailyRoute> DailyRoutes { get; protected set;}
-
+        public IEnumerable<DailyRoute> DailyRoutes { get; protected set;}        
 
     }
 

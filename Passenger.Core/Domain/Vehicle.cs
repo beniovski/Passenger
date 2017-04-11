@@ -5,13 +5,11 @@ namespace Passenger.Core.Domain
 {
     public class vehicle
     {
-        public string Brand { get; set; }
-        public string Name { get; set; }
+        public string Brand { get; protected set; }
 
-        public int Seats { get; set;  }
+        public string Name { get; protected set; }
 
-
-
+        public int Seats { get; protected set;  }
     }
 
 }

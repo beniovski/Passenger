@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Passenger.Core.Domain;
 
 namespace Passenger.Core.Repository
 {
@@ -10,13 +12,11 @@ namespace Passenger.Core.Repository
 
         IEnumerable<User> GetAll();
         
-        void Add(user user);
+        void Add(User user);
 
         void Remove(Guid id);
 
         void Update(User user);
 
     }
-
-
 }

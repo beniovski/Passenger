@@ -4,7 +4,7 @@ namespace Passenger.Core.Domain
 {
     public class User
     {
-        public Guid id { get; protected set;}
+        public Guid Id { get; protected set;}
 
         public string Email { get; protected set;}
 
@@ -22,18 +22,14 @@ namespace Passenger.Core.Domain
         {     
         }
 
-        public User( string email, string username,string password, string salt)
+        public User( string email, string username, string password, string salt)
         {
-            Email = email;
+            Id = new Guid.NewGuid();
+            Email = email.ToLowerInvariant;
             Username = username;
             Password = password;
             CreatedAt = DateTime.UtcNow;
         }
-
-
-
-
-
 
     }
 }

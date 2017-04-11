@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace Passenger.Core.Domain
 {
     public class DailyRoute

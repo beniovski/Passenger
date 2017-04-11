@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Passenger.Infrastructure.Services;
+using Passenger.Core.Repositories;
 
 namespace Passenger.Api
 {

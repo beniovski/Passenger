@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Passenger.Core.Domain
 {
     public class Route
@@ -10,5 +11,9 @@ namespace Passenger.Core.Domain
 
         public Node EndNode { get; protected set; }
 
-            
+     }
+
 }
+
+
+
