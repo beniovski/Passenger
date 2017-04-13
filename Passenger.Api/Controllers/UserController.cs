@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Passenger.Infrastructure.DTO;
 using Passenger.Infrastructure.Services;
+using  Passenger.Infrastructure.Commands.Users;
 
 namespace Passenger.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class UserController : Controller
     {
         private readonly IUserService _userService;
@@ -26,6 +28,12 @@ namespace Passenger.Api.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
+        }
+
+        [HttpPost("")]
+        public void Post([FromBody]CreateUser request)
+        {
+            _userService.Register(request.Email, request.Username, request.Password);
         }
 
       

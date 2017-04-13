@@ -1,0 +1,16 @@
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.deps.json
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.AssemblyInfo.cs
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.dll
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.pdb
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Core.pdb
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.dll
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Infrastructure.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6\Passenger.Core.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6\Passenger.Infrastructure.pdb

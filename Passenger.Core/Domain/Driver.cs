@@ -1,13 +1,10 @@
 ﻿using System.Collections.Generic;
 using System;
 
-
 namespace Passenger.Core.Domain
 {
     class Driver
     {
-        public Guid id { get; protected set;}
-
         public Guid UserId { get; protected set;}
 
         public Vehicle Vehicle { get; protected set;}

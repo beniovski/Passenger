@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Passenger.Core.Domain;
 
 namespace Passenger.Core.Repository
 {
     public interface IUserRepository
-    {
+    {        
         User Get(Guid id);
 
         User Get(string email);
@@ -19,4 +19,6 @@ namespace Passenger.Core.Repository
         void Update(User user);
 
     }
+
+
 }

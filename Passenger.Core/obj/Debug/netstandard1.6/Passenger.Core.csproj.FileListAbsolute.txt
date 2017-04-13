@@ -1,0 +1,12 @@
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.deps.json
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.AssemblyInfo.cs
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.pdb
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\daniel.bednarczuk\Documents\Visual Studio 2017\Projects\PassengerMy\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\bin\Debug\netstandard1.6\Passenger.Core.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Core\obj\Debug\netstandard1.6\Passenger.Core.pdb

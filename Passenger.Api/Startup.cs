@@ -1,4 +1,5 @@
 using System;
+using AutoMapper;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,12 +9,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Passenger.Infrastructure.Services;
+using Passenger.Infrastructure.Repositories;
 using Passenger.Core.Repositories;
+using Passenger.Infrastructure.Mappers;
 
 namespace Passenger.Api
 {
     public class Startup
     {
+        
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -31,12 +35,9 @@ namespace Passenger.Api
         {
             // Add framework services.
             services.AddMvc();
-            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, InMemoryUserRepository>();
-
-
-
-
+            services.AddScoped<IUserService, UserService>();
+            services.AddSingleton(AutoMapperConfig.Initialize());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

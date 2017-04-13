@@ -13,6 +13,7 @@ namespace Passenger.Api
     {
         public static void Main(string[] args)
         {
+           
             var config = new ConfigurationBuilder()
                 .AddCommandLine(args)
                 .AddEnvironmentVariables(prefix: "ASPNETCORE_")
