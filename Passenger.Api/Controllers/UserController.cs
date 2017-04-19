@@ -20,8 +20,16 @@ namespace Passenger.Api.Controllers
         }
 
         [HttpGet("{email}")]
-        public UserDto Get(string email)
-        => _userService.Get(email);
+        public async Task<IActionResult> Get(string email)
+        {
+            var user = _userService.Get(email);
+            if(user == null)
+            {
+                    return NotFound();
+            }
+            return Json(user);
+        }
+     
         
         // GET api/values
         [HttpGet]
@@ -31,9 +39,11 @@ namespace Passenger.Api.Controllers
         }
 
         [HttpPost("")]
-        public void Post([FromBody]CreateUser request)
+        public async Task<IActionResult> Post([FromBody]CreateUser request)
         {
-            _userService.Register(request.Email, request.Username, request.Password);
+             _userService.Register(request.Email, request.Username, request.Password);
+
+            return CreatedAtAction($"users/{request.Email}", new Object());
         }
 
       

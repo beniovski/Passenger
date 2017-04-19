@@ -15,6 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.01" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="1.1.1" />
     <PackageReference Include="Autofac" Version="4.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="1.1.1" /> 
     <PackageReference Include="Newtonsoft.Json" Version="10.0.01" /> 

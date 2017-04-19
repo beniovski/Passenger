@@ -1,0 +1,4 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netcoreapp1.1\Passenger.Tests.EndToEnd.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netcoreapp1.1\Passenger.Tests.EndToEnd.runtimeconfig.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netcoreapp1.1\Passenger.Tests.EndToEnd.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netcoreapp1.1\Passenger.Tests.EndToEnd.AssemblyInfo.cs

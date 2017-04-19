@@ -9282,25 +9282,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
       "projectName": "Passenger.Tests",
-      "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
-      "outputPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
+      "outputPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Passenger.Tests.dll": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\bin\\placeholder\\netcoreapp1.1\\Passenger.Tests.dll"
+        "lib/netcoreapp1.1/Passenger.Tests.dll": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Tests\\bin\\placeholder\\netcoreapp1.1\\Passenger.Tests.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
-              "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
+            "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
             },
-            "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
-              "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
+            "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
             }
           }
         }
