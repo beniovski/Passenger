@@ -16,6 +16,17 @@ namespace Passenger.Core.Domain
 
         public IEnumerable<DailyRoute> DailyRoutes { get; protected set; }
 
+        public Passenger()
+        {
+
+        }
+        Passenger(Node address, Guid userid)
+        {
+            id = new Guid();
+            UserId = userid;
+            address = Address;
+        }
+
     }
 
 
