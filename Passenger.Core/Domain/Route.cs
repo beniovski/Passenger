@@ -11,6 +11,17 @@ namespace Passenger.Core.Domain
 
         public Node EndNode { get; protected set; }
 
+        public Route()
+        {
+
+        }
+        public Route(Node startnode, Node endnode)
+        {
+            id = new Guid();
+            StartNode = startnode;
+            EndNode = endnode;
+        }
+
      }
 
 }

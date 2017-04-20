@@ -10,5 +10,20 @@ namespace Passenger.Core.Domain
 
         public double Latitude { get; protected set; }
 
+
+        public Node()
+        {
+
+        }
+
+        public Node (string address, double longitude, double latitude)
+        {
+            Address = address;
+            Longitude = longitude;
+            Latitude = latitude;
+        }
+    
+    
     }
+
 }
