@@ -11,7 +11,7 @@ namespace Passenger.Core.Domain
 
         public IEnumerable<PassengerNode> PassengerNodes { get; protected set; }
 
-        public DailyRoute()
+        private DailyRoute()
         {
 
         }

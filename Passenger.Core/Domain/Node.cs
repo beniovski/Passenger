@@ -1,4 +1,5 @@
 ﻿using System;
+using Passenger.Core.Domain.Validations;
 
 namespace Passenger.Core.Domain
 {
@@ -10,8 +11,7 @@ namespace Passenger.Core.Domain
 
         public double Latitude { get; protected set; }
 
-
-        public Node()
+        private Node()
         {
 
         }
@@ -21,8 +21,7 @@ namespace Passenger.Core.Domain
             Address = address;
             Longitude = longitude;
             Latitude = latitude;
-        }
-    
+        } 
     
     }
 

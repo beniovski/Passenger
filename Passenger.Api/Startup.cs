@@ -36,6 +36,7 @@ namespace Passenger.Api
             // Add framework services.
             services.AddMvc();
             services.AddScoped<IUserRepository, InMemoryUserRepository>();
+            services.AddScoped<IDriverRepository, InMemoryDriverRespository>();
             services.AddScoped<IUserService, UserService>();
             services.AddSingleton(AutoMapperConfig.Initialize());
 

@@ -11,7 +11,7 @@ namespace Passenger.Core.Domain
 
         public Node EndNode { get; protected set; }
 
-        public Route()
+        private Route()
         {
 
         }

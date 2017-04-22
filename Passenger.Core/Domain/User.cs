@@ -18,7 +18,7 @@ namespace Passenger.Core.Domain
 
         public DateTime CreatedAt { get; protected set; }
 
-        protected  User()
+        private  User()
         {     
         }
 

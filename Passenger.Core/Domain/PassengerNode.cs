@@ -1,13 +1,11 @@
-﻿using System;
-
-namespace Passenger.Core.Domain
+﻿namespace Passenger.Core.Domain
 {
     public class PassengerNode
     {
         public Node Node { get; protected set; }
 
         public Passenger Passenger { get; protected set; }
-        public PassengerNode()
+        private PassengerNode()
         {
 
         }
