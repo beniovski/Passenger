@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Passenger.Core.Domain;
 
-namespace Passenger.Core.Repositories
+namespace Passenger.Core.Repositories 
 {
-    public interface IDriverRepository
+    public interface IDriverRepository : IRepository
     {
         Task<Driver> GetAsync(Guid id);
         Task<IEnumerable<Driver>> GetAllAsync();       

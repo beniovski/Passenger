@@ -15,5 +15,9 @@
             Passenger = passenger;
         }
 
+        public static PassengerNode Create(Node node, Passenger passenger)
+            =>new PassengerNode(node,passenger);
+
+
     }
 }

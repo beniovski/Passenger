@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Passenger.Infrastructure.Services;
 using Passenger.Infrastructure.Commands.Users;
 using Passenger.Infrastructure.Commands;
+using Passenger.Infrastructure.Settings;
 
 namespace Passenger.Api.Controllers
 {
@@ -11,7 +12,7 @@ namespace Passenger.Api.Controllers
     {
         private readonly IUserService _userService;
         public UserController(IUserService userService,
-         ICommandDispatcher commandDispatcher): base(commandDispatcher)
+         ICommandDispatcher commandDispatcher, GeneralSettings settings): base(commandDispatcher)
         {
             _userService = userService;           
         }

@@ -24,6 +24,17 @@ namespace Passenger.Api.Controllers
             return CreatedAtAction($"driver/{command.UserId}", new Object());
         }      
 
+        [HttpGet("/Driver")]
+         public async Task<IActionResult> GetAsync(Guid id)      
+        {
+            var driver = await _driverService.GetAsync(id);
+            if(driver == null)
+            {
+                    return NotFound();
+            }
+            return Json(driver);
+        }
+
 
 
 

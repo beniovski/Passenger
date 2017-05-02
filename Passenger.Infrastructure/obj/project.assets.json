@@ -71,6 +71,59 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.1.1",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -998,6 +1051,18 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1581,6 +1646,50 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/1.1.1": {
+      "sha512": "LBkkpxDUSBScoCrwYFCmzswrmVoAbVPjdwzmgdZ4906m1sSnIQTL4VndrSv849Mlm2ItmBXWRm0fttDF00KG1A==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/1.1.1",
+      "files": [
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.1.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/1.1.1": {
+      "sha512": "lUbZu5qxR+StwCTPQQNYTe293ZLJ7cv4QFxH8olY9bhkFiqPiV2gMUvkYdSpSXNRn2RcQQica6K9eW862DAynw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/1.1.1",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.1.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+      "sha512": "w640fieUPwaXp/ljBa3Sgxxmp8tWo/TaqcUY0sRBOv2J0b5vaAi/tYtiqoLMwCxpFzos9QP/IfRTionHtCYZVw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/1.1.1",
+      "files": [
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.1.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/1.1.0": {
+      "sha512": "WzopG3KjAREgigAWUAw0pxhBwuXx832eBAS3C3lE+hyZu9eL5PZTEmEgd9++CVPVmBPENH2RIuVc3hLSsM17jw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/1.1.0",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.1.1.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -3997,6 +4106,19 @@
         "system.runtime.nuspec"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+      "sha512": "KeidaBndfCiElaovEKfg4uh+dCbWd8h8DDo08vzCVNy0F/4o81WLQN4tM5KVKb3W6xJzeoaGmGEn/5NLxvrbUw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.3.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec"
+      ]
+    },
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "rIhMrRFFRL8WtMi4J/342s7e7xu5YfPlgeisHrLIPHaYAPEdBKPo/Iz+dQRGvgHIMCnaTP3Vqun3PZBf1t5uBw==",
       "type": "package",
@@ -5220,6 +5342,8 @@
     ".NETStandard,Version=v1.6": [
       "AutoMapper >= 6.0.2",
       "Autofac >= 4.5.0",
+      "Microsoft.Extensions.Configuration >= 1.1.1",
+      "Microsoft.Extensions.Configuration.Binder >= 1.1.1",
       "NETStandard.Library >= 1.6.1",
       "Newtonsoft.Json >= 10.0.1",
       "Passenger.Core >= 1.0.0"
@@ -5231,22 +5355,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
       "projectName": "Passenger.Infrastructure",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\obj\\",
+      "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "outputPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/Passenger.Infrastructure.dll": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\bin\\placeholder\\netstandard1.6\\Passenger.Infrastructure.dll"
+        "lib/netstandard1.6/Passenger.Infrastructure.dll": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\bin\\placeholder\\netstandard1.6\\Passenger.Infrastructure.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
-              "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
+            "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
+              "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
             }
           }
         }
@@ -5266,6 +5390,14 @@
           "Autofac": {
             "target": "Package",
             "version": "4.5.0"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "1.1.1"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
+            "target": "Package",
+            "version": "1.1.1"
           },
           "AutoMapper": {
             "target": "Package",

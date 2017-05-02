@@ -18,7 +18,7 @@ namespace Passenger.Infrastructure.Repositories
 
         public async Task<IEnumerable<Driver>> GetAllAsync()=>_drivers;
 
-        public async Task<Driver> GetAsync(Guid id)=> _drivers.Single(x => x.UserId == id);
+        public async Task<Driver> GetAsync(Guid id)=> _drivers.Single(x=> x.DriverId == id);
 
         public async Task UpdateAsync(Driver driver)
         {

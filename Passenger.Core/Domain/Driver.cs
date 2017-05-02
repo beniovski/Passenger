@@ -7,8 +7,8 @@ namespace Passenger.Core.Domain
     {
         public Guid UserId { get; protected set;}
 
-        public Guid DriverId { get; private set;}
-    
+        public Guid DriverId { get; private set;}    
+        
         public Vehicle Vehicle { get; protected set;}
 
         public IEnumerable<Route> Routes { get; protected set;}
