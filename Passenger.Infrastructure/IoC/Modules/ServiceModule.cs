@@ -15,7 +15,17 @@ namespace Passenger.Infrastructure.IoC.Modules
             builder.RegisterAssemblyTypes(assembly)
             .Where(x=>x.IsAssignableTo<IService>())
             .AsImplementedInterfaces()
-            .InstancePerLifetimeScope();            
+            .InstancePerLifetimeScope();
+
+            builder.RegisterType<Encrypter>()
+            .As<IEncrypter>()
+            .SingleInstance();  
+
+             builder.RegisterType<JwtHandler>()
+            .As<IJwtHandler>()
+            .SingleInstance();       
+
+                        
 
         }
         

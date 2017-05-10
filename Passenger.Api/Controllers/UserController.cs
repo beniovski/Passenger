@@ -5,6 +5,7 @@ using Passenger.Infrastructure.Services;
 using Passenger.Infrastructure.Commands.Users;
 using Passenger.Infrastructure.Commands;
 using Passenger.Infrastructure.Settings;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Passenger.Api.Controllers
 {
@@ -16,7 +17,7 @@ namespace Passenger.Api.Controllers
         {
             _userService = userService;           
         }
-
+        [Authorize]
         [HttpGet("{email}")]
         public async Task<IActionResult> GetAsync(string email)      
         {
