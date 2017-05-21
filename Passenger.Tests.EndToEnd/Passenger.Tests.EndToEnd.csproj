@@ -8,6 +8,9 @@
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
   </PropertyGroup>
+  <ItemGroup>
+  <Content Include="appseting.json" CopyToOutputDirectory="PreserveNewest">
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="../Passenger.Api/Passenger.Api.csproj" />
@@ -17,6 +20,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.01" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.2" />
     <PackageReference Include="Autofac" Version="4.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="1.1.1" /> 
     <PackageReference Include="Newtonsoft.Json" Version="10.0.01" /> 

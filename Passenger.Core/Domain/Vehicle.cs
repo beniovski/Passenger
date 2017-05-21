@@ -21,7 +21,9 @@ namespace Passenger.Core.Domain
             Brand = brand;
             Name = name;
             Seats = seats;
-        }      
+        }   
+
+           
 
     }
 

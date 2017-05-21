@@ -22,9 +22,9 @@ namespace Passenger.Core.Domain
         {     
         }
 
-        public User(string email, string username, string password, string salt)
+        public User(Guid userId, string email, string username, string password, string salt)
         {
-            Id = new Guid();
+            Id = userId;
             Email = email;
             Username = username;
             Password = password;

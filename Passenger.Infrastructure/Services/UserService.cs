@@ -5,6 +5,7 @@ using Passenger.Core.Domain;
 using AutoMapper;
 using System.Threading.Tasks;
 using Passenger.Core.Repositories;
+using System.Collections.Generic;
 
 namespace Passenger.Infrastructure.Services
 
@@ -20,6 +21,13 @@ namespace Passenger.Infrastructure.Services
             _encrypter = encrypter;
             _userRepository = userRepository;
             _mapper = mapper;
+        }
+
+         public async Task<IEnumerable<UserDto>> BrowseAsync()
+        {
+            var users = await _userRepository.GetAllAsync();
+
+            return _mapper.Map<IEnumerable<User>, IEnumerable<UserDto>>(users);
         }
 
         public async Task<UserDto> GetAsync(string email)
@@ -44,12 +52,12 @@ namespace Passenger.Infrastructure.Services
            throw new Exception("invalid credentials");
         }
 
-        public async Task RegisterAsync(string email , string password)
+        public async Task RegisterAsync(Guid userId, string email , string password)
         {
 
         }
 
-        public async Task RegisterAsync(string email, string username,  string password)
+        public async Task RegisterAsync(Guid userId, string email, string username,  string password)
         {
             var user = await _userRepository.GetAsync(email);
             if(user != null )
@@ -58,7 +66,7 @@ namespace Passenger.Infrastructure.Services
             }
             var salt = _encrypter.GetSalt(password);
             var hashedPass = _encrypter.GetHash(password, salt);
-            user = new User(email, username, hashedPass, salt);
+            user = new User(userId, email, username, hashedPass, salt);
             _userRepository.AddAsync(user);
         }
 

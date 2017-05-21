@@ -265,6 +265,34 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.Extensions.Caching.Abstractions/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.1",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -2305,6 +2333,30 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Abstractions/1.1.1": {
+      "sha512": "PlaS3ICM7kIHXPVawVfqYgWGE+e1IxglydFHsMH52UuCWylVvmT0nV8n/zXa7luYI6lJkCuEl+Qs87Fe6SZx1g==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/1.1.1",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.1.1.1.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Memory/1.1.1": {
+      "sha512": "8fBsVUUTd582a/iCmsbjokyh2hK367+o9Ou933Q7NTvjJ8et3/V13swC8amFMu8SBoPcymHU3CGzwwGpnm5DVw==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.memory/1.1.1",
+      "files": [
+        "lib/net451/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net451/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.xml",
+        "microsoft.extensions.caching.memory.1.1.1.nupkg.sha512",
+        "microsoft.extensions.caching.memory.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/1.1.1": {
@@ -6401,6 +6453,7 @@
       "AutoMapper >= 6.0.2",
       "Autofac >= 4.5.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 1.1.2",
+      "Microsoft.Extensions.Caching.Memory >= 1.1.1",
       "Microsoft.Extensions.Configuration >= 1.1.1",
       "Microsoft.Extensions.Configuration.Binder >= 1.1.1",
       "NETStandard.Library >= 1.6.1",
@@ -6414,22 +6467,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
       "projectName": "Passenger.Infrastructure",
-      "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
-      "outputPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "outputPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/Passenger.Infrastructure.dll": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\bin\\placeholder\\netstandard1.6\\Passenger.Infrastructure.dll"
+        "lib/netstandard1.6/Passenger.Infrastructure.dll": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Infrastructure\\bin\\placeholder\\netstandard1.6\\Passenger.Infrastructure.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
-              "projectPath": "c:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
+            "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\Visual Studio 2017\\Projects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
             }
           }
         }
@@ -6453,6 +6506,10 @@
           "Autofac": {
             "target": "Package",
             "version": "4.5.0"
+          },
+          "Microsoft.Extensions.Caching.Memory": {
+            "target": "Package",
+            "version": "1.1.1"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",

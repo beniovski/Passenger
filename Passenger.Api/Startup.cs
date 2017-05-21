@@ -16,6 +16,7 @@ using Microsoft.IdentityModel.Tokens;
 using Passenger.Infrastructure.Settings;
 using System.Text;
 
+
 namespace Passenger.Api
 {
     public class Startup
@@ -39,6 +40,7 @@ namespace Passenger.Api
         {
             // Add framework services.
             services.AddMvc();
+            services.AddMemoryCache();
             var builder = new ContainerBuilder();
             builder.Populate(services);
             builder.RegisterModule(new ContainerModule(Configuration));
@@ -69,6 +71,12 @@ namespace Passenger.Api
 
 
             });
+            var generalSettings = app.ApplicationServices.GetService<GeneralSettings>();
+            if(generalSettings.SeedData)
+            {
+                var dataInit = app.ApplicationServices.GetService<IDataInitializer>();
+                dataInit.SeedAsync();
+            }
             app.UseMvc();
             appLifetime.ApplicationStopped.Register(()=>ApplicationContainer.Dispose());
 
