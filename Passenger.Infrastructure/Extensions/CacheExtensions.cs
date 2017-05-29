@@ -10,11 +10,11 @@ namespace Passenger.Infrastructure.Extensions
         public static void SetJwt(this IMemoryCache cache, Guid tokenId, JwtDto jwt)
             => cache.Set("key", jwt, TimeSpan.FromSeconds(5));
 
-        public static void GetJwt(this IMemoryCache cache, Guid tokenId)
-            => cache.Get<JwtDto>(tokenId);  
+        public static JwtDto GetJwt(this IMemoryCache cache, string email)
+            => cache.Get<JwtDto>(GetJwtKey(email));  
         
-        private static string GetJwtKey(Guid tokenId)
-            =>$"jwt-{tokenId}";
+        private static string GetJwtKey(string email) 
+            => $"{email}-jwt";
         
         
         

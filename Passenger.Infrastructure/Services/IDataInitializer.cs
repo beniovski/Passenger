@@ -1,10 +1,9 @@
+using System.Threading.Tasks;
+
 namespace Passenger.Infrastructure.Services
 {
-    public interface IName
+    public interface IDataInitializer : IService
     {
-        
-    } IDataInitializer: IService
-    {
-        Task SeedAsync();
+         Task SeedAsync();
     }
 }
