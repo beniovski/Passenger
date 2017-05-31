@@ -63,7 +63,7 @@ namespace Passenger.Api
                 AutomaticAuthenticate = true,
                 TokenValidationParameters = new TokenValidationParameters
                 {
-                    ValidIssuer = jwtSettings.Issure,
+                    ValidIssuer = jwtSettings.Issuer,
                     ValidateAudience = false,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
 

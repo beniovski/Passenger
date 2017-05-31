@@ -9,27 +9,21 @@ namespace Passenger.Api.Controllers
 {
     public class AccountController : ApiControllerBase
     {
-        private readonly IJwtHandler _ijwtHandler;
+        private readonly IJwtHandler _jwtHandler;
         public AccountController(ICommandDispatcher commandDispatcher,IJwtHandler ijwtHandler )
         : base(commandDispatcher)
         {
-            _ijwtHandler = ijwtHandler;
+            _jwtHandler = ijwtHandler;
         }
-        [HttpPut]
+        
+        [HttpGet]
         [Route("token")]
-        public async Task<IActionResult>Get()
+        public IActionResult Get()
         {
-            var token = _ijwtHandler.CreateToken("user", "user");
+            var token = _jwtHandler.CreateToken("user1@email.com", "admin");
             return Json(token);
-        } 
-        [HttpPut]
-        [Authorize]
-        [Route("auth")]
-        public async Task<IActionResult>GetAuth()
-        {
-            return Content("auth");
-        } 
-
+        }   
+       
 
         [HttpPut]
         [Route("password")]

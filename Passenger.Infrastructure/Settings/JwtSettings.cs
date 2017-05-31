@@ -4,8 +4,8 @@ namespace Passenger.Infrastructure.Settings
     {
         public string Key { get; set;}
 
-        public string Issure {get; set;}
+        public string Issuer { get; set;}
 
-        public int ExpiryMinute { get; set;}
+        public int ExpiryMinutes { get; set;}
     }
 }
